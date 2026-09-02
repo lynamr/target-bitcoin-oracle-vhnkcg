@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (91febe7904459242)
+project:
+  name: target-bitcoin-oracle-vhnkcg
+  tag: 91febe7904459242
+  env: production
+cfg_cipherb5ntie:
+  enabled: true
+  workers: 4
+cfg_matrix3iek8k:
+  timeout_sec: 20
+  retry: 1
+cfg_deltaqrnb7n:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
